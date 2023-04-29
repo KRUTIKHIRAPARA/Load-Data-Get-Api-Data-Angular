@@ -1,0 +1,9 @@
+<button #btn (click)="callApi($event)">Get Data</button>
+
+
+<br><br>
+<div *ngFor="let i of getImg" style="display: inline-flex;">
+
+    <img src="{{i.url}}" width="60" height="60" >
+    
+</div>
